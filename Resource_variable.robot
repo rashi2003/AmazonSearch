@@ -1,0 +1,20 @@
+*** Variables ***
+${URL}            http://www.google.com
+${amazon_url}     https://www.amazon.in/
+${SEARCH_TERM}    amazon
+${ELECTRONICS}    Electronics
+${MIN_PRICE}      30000
+${MAX_PRICE}      50000
+${RATING}         5
+${ID}             Enter_Your_ID
+${browser}        Chrome
+${PASSWORD}       Enter_Your_Password
+${Xpath_min_filter}    id:low-price
+${Xpath_Max_filter}    id:high-price
+${Xpath_for_Signing_in}    id:nav-link-accountList
+${Xpath_for_ID}    id:ap_email
+${Xpath_for_password}    id:ap_password
+${Xpath_for_sign_in_button}    id:signInSubmit
+${Xpath_for_Sign_in_Continue_post_id}    id:continue
+${Xpath_for_Amazon_search_bar}    //*[@id="twotabsearchtextbox"]
+${Xpath_for_getting_Price_of_Product}    //*[@class="a-price-whole"]
