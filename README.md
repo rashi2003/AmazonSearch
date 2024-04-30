@@ -1,6 +1,6 @@
 # AmazonSearch
 **Description**
-Adds the Dell laptop to wish list with price filters
+
 This code logins into amazon through google.com and searches for dell Laptop, Filters laptop at a range of 30000 to 50000 and with  the product rating and prints all the results and adds the first laptop on tis list to the wish list and verifies the Wish list
 
 This Framework uses Resource_variable.robot file to store all the variables used and Resource_Keyword file 
